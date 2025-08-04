@@ -1,0 +1,50 @@
+/* Privacy */
+
+.privacy {
+    padding: 30px 70px;
+}
+
+@media (max-width: 768px) {
+    .privacy {
+        padding: 20px 15px;
+    }
+}
+
+/* Title */
+
+.privacy__title {
+    padding-bottom: 40px;
+}
+
+/* List */
+
+.privacy__list .privacy__list {
+    margin-left: 10px;
+}
+
+.privacy__list {
+    padding-left: 10px;
+}
+
+/* Text */
+
+.privacy__text {
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+    line-height: 27px;
+      
+}
+
+.privacy__text:not(:last-child) {
+    padding-bottom: 25px;
+}
+
+.privacy__text a:focus {
+    outline: 3px dotted rgb(20, 20, 20);
+}
+
+@media (max-width: 422px) {
+    .privacy__text {
+        font-size: 15px;
+    }
+}

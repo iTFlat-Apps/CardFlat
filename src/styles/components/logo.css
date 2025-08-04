@@ -1,0 +1,47 @@
+/* Logo */
+
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 15px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        gap: 8px;
+    }
+}
+
+/* Title */
+
+.logo__text {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+
+@media (max-width: 768px) {
+    .logo__text {
+        font-size: 24px;
+    }
+}
+
+/* Image */
+
+.logo__image {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .logo__image {
+        width: 60px;
+        height: 60px;
+    }
+    
+}

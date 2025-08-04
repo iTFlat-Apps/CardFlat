@@ -1,1 +1,31 @@
 /* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 18px 15px;
+    }
+}
+
+/* List */
+
+.header__list {
+    margin-left: auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+}
+
+/* Link */
+
+.header__link {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+}
