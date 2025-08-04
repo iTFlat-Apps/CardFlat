@@ -8,7 +8,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build src/*.html --public-url /CardFLat/"
+    "build": "parcel build src/*.html --public-url /"
   },
   "devDependencies": {
     "autoprefixer": "latest",
