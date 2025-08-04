@@ -3,12 +3,12 @@
   "description": "Parcel starter template",
   "author": "Karvackyy Roma",
   "license": "MIT",
-  "homepage": "https://iTFlat-Apps.github.io/CardFLat/",
+  "homepage": "https://iTFlat-Apps.github.io/CardFlat/",
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build src/*.html --public-url /"
+    "build": "parcel build src/*.html --public-url /CardFlat/"
   },
   "devDependencies": {
     "autoprefixer": "latest",
