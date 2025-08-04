@@ -15,6 +15,7 @@
     "parcel": "latest",
     "postcss": "latest",
     "postcss-import": "latest",
+    "posthtml": "latest",
     "posthtml-include": "latest"
   },
   "repository": {
