@@ -11,6 +11,8 @@
     "build": "parcel build src/*.html --public-url /CardFlat/"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.15.4",
+    "@parcel/transformer-webmanifest": "2.15.4",
     "autoprefixer": "latest",
     "parcel": "latest",
     "postcss": "latest",
